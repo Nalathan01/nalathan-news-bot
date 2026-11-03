@@ -16,6 +16,8 @@ CONFIG = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
 STATE_FILE = ROOT / "state.json"
 DRY = "--dry" in sys.argv
 INIT = "--init" in sys.argv
+MODHUB_MOD = "https://www.farming-simulator.com/mod.php?lang=de&country=de&mod_id={}&title=fs2025"
+FBM_FILE = "https://forbidden-mods.de/filebase/file/{}/"
 COLORS = {"fbm": 0xC0392B, "modhub": 0x2E8B57, "github": 0x5865F2}
 
 
@@ -59,11 +61,13 @@ def fbm_entries():
             continue
         notes = re.search(r'<div class="containerContent htmlContent">(.*?)</div>', block, re.S)
         file_id = re.search(r"/file/(\d+)-", url).group(1)
+        mh = CONFIG.get("modhubForFbm", {}).get(file_id)
         yield {
             "key": f"fbm:{file_id}", "version": version.group(1), "source": "fbm",
             "name": html.unescape(title.group(1)), "url": url, "channel": "ls25",
             "notes": re.sub(r"^Changelog[^\n]*:\n", "", clean(notes.group(1))) if notes else "",
-            "image": image.group(1) if image else None}
+            "image": image.group(1) if image else None,
+            "links": [("ModHub", MODHUB_MOD.format(mh))] if mh else []}
 
 
 def modhub_entries():
@@ -75,7 +79,7 @@ def modhub_entries():
             break
         ids += found
     for mod_id in ids:
-        url = f"https://www.farming-simulator.com/mod.php?lang=de&country=de&mod_id={mod_id}&title=fs2025"
+        url = MODHUB_MOD.format(mod_id)
         s = fetch(url)
         flat = re.sub(r"\s+", " ", s)
         title = re.search(r"<h2[^>]*>([^<]+)</h2>", s)
@@ -91,7 +95,8 @@ def modhub_entries():
         yield {
             "key": f"modhub:{mod_id}", "version": version, "source": "modhub",
             "name": html.unescape(title.group(1).strip()), "url": url, "channel": "ls25",
-            "notes": notes, "image": image.group(1) if image else None}
+            "notes": notes, "image": image.group(1) if image else None,
+            "links": [("Forbidden Mods", FBM_FILE.format(f)) for f, m in CONFIG.get("modhubForFbm", {}).items() if m == mod_id]}
 
 
 def github_entries():

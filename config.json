@@ -7,10 +7,72 @@
   "rf4": "1567171370230612099"
  },
  "githubRepos": [
-  {"repo": "Nalathan01/FS25-Mod-Inventory", "name": "FS25 Mod Inventory", "channel": "ls25", "links": [["itch.io", "https://nalathan.itch.io/mod-inventur"]]},
-  {"repo": "Nalathan01/FS25-Server-Sync", "name": "FS25 Server Sync", "channel": "ls25", "links": [["itch.io", "https://nalathan.itch.io/fs25-server-sync"]]},
-  {"repo": "Nalathan01/TF3_RealTime", "name": "Real Time", "channel": "tf3", "links": [["mod.io", "https://mod.io/g/transportfever3/m/real-time1"]]},
-  {"repo": "Nalathan01/TF3_ReplaceWarehouses", "name": "Replace Warehouses", "channel": "tf3", "links": [["mod.io", "https://mod.io/g/transportfever3/m/replace-warehouses"]]},
-  {"repo": "Nalathan01/rf4-companion", "name": "RF4 Companion", "channel": "rf4", "links": [["itch.io", "https://nalathan.itch.io/rf4-companion"]]}
- ]
+  {
+   "repo": "Nalathan01/FS25-Mod-Inventory",
+   "name": "FS25 Mod Inventory",
+   "channel": "ls25",
+   "links": [
+    [
+     "itch.io",
+     "https://nalathan.itch.io/mod-inventur"
+    ]
+   ]
+  },
+  {
+   "repo": "Nalathan01/FS25-Server-Sync",
+   "name": "FS25 Server Sync",
+   "channel": "ls25",
+   "links": [
+    [
+     "itch.io",
+     "https://nalathan.itch.io/fs25-server-sync"
+    ]
+   ]
+  },
+  {
+   "repo": "Nalathan01/TF3_RealTime",
+   "name": "Real Time",
+   "channel": "tf3",
+   "links": [
+    [
+     "mod.io",
+     "https://mod.io/g/transportfever3/m/real-time1"
+    ]
+   ]
+  },
+  {
+   "repo": "Nalathan01/TF3_ReplaceWarehouses",
+   "name": "Replace Warehouses",
+   "channel": "tf3",
+   "links": [
+    [
+     "mod.io",
+     "https://mod.io/g/transportfever3/m/replace-warehouses"
+    ]
+   ]
+  },
+  {
+   "repo": "Nalathan01/rf4-companion",
+   "name": "RF4 Companion",
+   "channel": "rf4",
+   "links": [
+    [
+     "itch.io",
+     "https://nalathan.itch.io/rf4-companion"
+    ]
+   ]
+  }
+ ],
+ "modhubForFbm": {
+  "78050": "366174",
+  "77329": "363383",
+  "80223": "373590",
+  "79825": "372625",
+  "79624": "371897",
+  "79509": "371610",
+  "78989": "370068",
+  "78007": "370597",
+  "77294": "364141",
+  "77314": "364299"
+ }
 }
