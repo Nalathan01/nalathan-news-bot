@@ -118,7 +118,7 @@ def github_entries():
 
 def discord(method, path, body=None):
     req = urllib.request.Request(API + path, data=json.dumps(body).encode() if body is not None else None, method=method, headers={
-        "Authorization": "Bot " + os.environ["DISCORD_NEWS_BOT_TOKEN"], "User-Agent": BOT_UA, "Content-Type": "application/json"})
+        "Authorization": "Bot " + os.environ["DISCORD_NEWS_BOT_TOKEN"].strip().lstrip("﻿"), "User-Agent": BOT_UA, "Content-Type": "application/json"})
     while True:
         try:
             with urllib.request.urlopen(req, timeout=30) as r:
