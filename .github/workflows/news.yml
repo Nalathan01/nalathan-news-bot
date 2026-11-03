@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: news
@@ -15,6 +16,7 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -30,4 +32,16 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add state.json
-          git diff --cached --quiet || (git commit -m "Update state" && git push)
+          git diff --cached --quiet || (git commit -m "Update state" && git pull --rebase && git push)
+
+  next:
+    needs: check
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - run: sleep 1500
+      - name: Start next run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run news.yml -R ${{ github.repository }} --ref main
