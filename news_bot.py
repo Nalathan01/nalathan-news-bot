@@ -110,15 +110,11 @@ def github_entries():
             if e.code == 404:
                 continue
             raise
-        body = re.sub(r"\*\*Download:\*\*[^\n]*\n?", "", rel.get("body") or "")
-        body = re.sub(r"^#+\s*(.+)$", r"**\1**", body, flags=re.M)
-        body = re.sub(r"^\s*[*-]\s+", "• ", body, flags=re.M).strip()
-        if len(body) > 1500:
-            body = body[:1500].rsplit("\n", 1)[0] + "\n…"
         yield {
             "key": f"github:{repo['repo']}", "version": rel["tag_name"].lstrip("v"), "source": "github",
             "name": repo["name"], "url": rel["html_url"], "channel": repo["channel"],
-            "notes": body, "image": None, "links": repo.get("links", [])}
+            "notes": f"Was sich geändert hat, steht in den [Release Notes]({rel['html_url']}).",
+            "image": None, "links": repo.get("links", [])}
 
 
 def discord(method, path, body=None):
