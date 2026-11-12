@@ -186,13 +186,11 @@ def main():
         print(("bekannt" if first_run else "gemeldet"), entry["key"], entry["name"], entry["version"])
         state[entry["key"]] = entry["version"]
     if not DRY:
-        NEWS_FILE.write_text(json.dumps(news[:300], indent=1, ensure_ascii=False) + "
-", encoding="utf-8")
+        NEWS_FILE.write_text(json.dumps(news[:300], indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
         if not failed:
             site = {e["key"]: {"name": e["name"], "version": e["version"], "source": e["source"], "game": e["channel"],
                                "url": e["url"], "image": e["image"], "links": e.get("links", [])} for e in entries}
-            SITE_FILE.write_text(json.dumps({"updated": now, "items": dict(sorted(site.items()))}, indent=1, ensure_ascii=False) + "
-", encoding="utf-8")
+            SITE_FILE.write_text(json.dumps({"updated": now, "items": dict(sorted(site.items()))}, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
         STATE_FILE.write_text(json.dumps(dict(sorted(state.items())), indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     for f in failed:
         print("FEHLER", f, file=sys.stderr)
