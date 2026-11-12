@@ -4,6 +4,7 @@ import os
 import re
 import sys
 import time
+from datetime import datetime, timezone
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -14,6 +15,8 @@ WEB_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) NalathanNewsBot/1.0"
 ROOT = Path(__file__).resolve().parent
 CONFIG = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
 STATE_FILE = ROOT / "state.json"
+NEWS_FILE = ROOT / "news.json"
+SITE_FILE = ROOT / "site.json"
 DRY = "--dry" in sys.argv
 INIT = "--init" in sys.argv
 MODHUB_MOD = "https://www.farming-simulator.com/mod.php?lang=de&country=de&mod_id={}&title=fs2025"
@@ -158,10 +161,16 @@ def main():
             entries += list(source())
         except Exception as e:
             failed.append(f"{source.__name__}: {e}")
+    news = json.loads(NEWS_FILE.read_text(encoding="utf-8")) if NEWS_FILE.exists() else []
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     for entry in entries:
         known = state.get(entry["key"])
         if known == entry["version"]:
             continue
+        if not first_run and not DRY:
+            news.insert(0, {"date": now, "key": entry["key"], "name": entry["name"], "version": entry["version"],
+                            "source": entry["source"], "game": entry["channel"], "new": known is None,
+                            "url": entry["url"], "image": entry["image"]})
         if not first_run:
             message = build(entry, known is None)
             if DRY:
@@ -177,6 +186,13 @@ def main():
         print(("bekannt" if first_run else "gemeldet"), entry["key"], entry["name"], entry["version"])
         state[entry["key"]] = entry["version"]
     if not DRY:
+        NEWS_FILE.write_text(json.dumps(news[:300], indent=1, ensure_ascii=False) + "
+", encoding="utf-8")
+        if not failed:
+            site = {e["key"]: {"name": e["name"], "version": e["version"], "source": e["source"], "game": e["channel"],
+                               "url": e["url"], "image": e["image"], "links": e.get("links", [])} for e in entries}
+            SITE_FILE.write_text(json.dumps({"updated": now, "items": dict(sorted(site.items()))}, indent=1, ensure_ascii=False) + "
+", encoding="utf-8")
         STATE_FILE.write_text(json.dumps(dict(sorted(state.items())), indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     for f in failed:
         print("FEHLER", f, file=sys.stderr)
