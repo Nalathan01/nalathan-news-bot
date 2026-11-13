@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T20:30:02Z",
+ "updated": "2026-11-13T20:24:58Z",
  "items": {
   "fbm:77294": {
    "name": "Futter Silo Erweiterung",
@@ -235,7 +235,7 @@
    "source": "modhub",
    "game": "ls25",
    "url": "https://www.farming-simulator.com/mod.php?lang=de&country=de&mod_id=363383&title=fs2025",
-   "image": "https://cdn40.giants-software.com/modHub/storage/00363383/screenshot0.jpg",
+   "image": "https://cdn32.giants-software.com/modHub/storage/00363383/screenshot0.jpg",
    "links": [
     [
      "Forbidden Mods",
@@ -366,6 +366,20 @@
     [
      "Forbidden Mods",
      "https://forbidden-mods.de/filebase/file/80223/"
+    ]
+   ]
+  },
+  "web:rf4-spots": {
+   "name": "RF4 Spots",
+   "version": "1.0",
+   "source": "web",
+   "game": "rf4",
+   "url": "https://nalathan.itch.io/rf4-spots",
+   "image": null,
+   "links": [
+    [
+     "Im Browser öffnen",
+     "https://www.nalathan.de/rf4-spots/"
     ]
    ]
   }

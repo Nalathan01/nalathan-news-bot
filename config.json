@@ -74,5 +74,22 @@
   "78007": "370597",
   "77294": "364141",
   "77314": "364299"
- }
+ },
+ "webApps": [
+  {
+   "key": "web:rf4-spots",
+   "name": "RF4 Spots",
+   "channel": "rf4",
+   "versionUrl": "https://itch.io/api/1/x/wharf/latest?target=nalathan/rf4-spots&channel_name=android",
+   "pattern": "\"latest\"\\s*:\\s*\"([^\"]+)\"",
+   "url": "https://nalathan.itch.io/rf4-spots",
+   "notes": "Die Handy-App für Spots und Köder, als Android-App oder direkt im Browser.",
+   "links": [
+    [
+     "Im Browser öffnen",
+     "https://www.nalathan.de/rf4-spots/"
+    ]
+   ]
+  }
+ ]
 }

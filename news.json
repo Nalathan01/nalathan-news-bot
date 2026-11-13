@@ -1,5 +1,16 @@
 [
  {
+  "date": "2026-11-13T07:00:00Z",
+  "key": "web:rf4-spots",
+  "name": "RF4 Spots",
+  "version": "1.0",
+  "source": "web",
+  "game": "rf4",
+  "new": true,
+  "url": "https://nalathan.itch.io/rf4-spots",
+  "image": null
+ },
+ {
   "date": "2026-11-12T20:01:32Z",
   "key": "github:Nalathan01/rf4-companion",
   "name": "RF4 Companion",

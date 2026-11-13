@@ -21,7 +21,7 @@ DRY = "--dry" in sys.argv
 INIT = "--init" in sys.argv
 MODHUB_MOD = "https://www.farming-simulator.com/mod.php?lang=de&country=de&mod_id={}&title=fs2025"
 FBM_FILE = "https://forbidden-mods.de/filebase/file/{}/"
-COLORS = {"fbm": 0xC0392B, "modhub": 0x2E8B57, "github": 0x5865F2}
+COLORS = {"fbm": 0xC0392B, "modhub": 0x2E8B57, "github": 0x5865F2, "web": 0x4FD1C5}
 
 
 def fetch(url, headers=None):
@@ -120,6 +120,17 @@ def github_entries():
             "image": None, "links": repo.get("links", [])}
 
 
+def web_entries():
+    for app in CONFIG.get("webApps", []):
+        m = re.search(app["pattern"], fetch(app["versionUrl"]))
+        if not m:
+            continue
+        yield {
+            "key": app["key"], "version": m.group(1), "source": "web",
+            "name": app["name"], "url": app["url"], "channel": app["channel"],
+            "notes": app.get("notes", ""), "image": app.get("image"), "links": app.get("links", [])}
+
+
 def discord(method, path, body=None):
     req = urllib.request.Request(API + path, data=json.dumps(body).encode() if body is not None else None, method=method, headers={
         "Authorization": "Bot " + os.environ["DISCORD_NEWS_BOT_TOKEN"].strip().lstrip("﻿"), "User-Agent": BOT_UA, "Content-Type": "application/json"})
@@ -136,7 +147,7 @@ def discord(method, path, body=None):
 
 
 def build(entry, is_new):
-    where = {"fbm": "Forbidden Mods", "modhub": "ModHub", "github": "GitHub"}[entry["source"]]
+    where = {"fbm": "Forbidden Mods", "modhub": "ModHub", "github": "GitHub", "web": "itch.io"}[entry["source"]]
     if entry["source"] == "modhub":
         head = "Neu im ModHub" if is_new else "Update im ModHub"
     elif entry["source"] == "fbm":
@@ -156,7 +167,7 @@ def main():
     first_run = INIT or not STATE_FILE.exists()
     state = {} if not STATE_FILE.exists() else json.loads(STATE_FILE.read_text(encoding="utf-8"))
     entries, failed = [], []
-    for source in (fbm_entries, modhub_entries, github_entries):
+    for source in (fbm_entries, modhub_entries, github_entries, web_entries):
         try:
             entries += list(source())
         except Exception as e:
