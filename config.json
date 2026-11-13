@@ -75,21 +75,107 @@
   "77294": "364141",
   "77314": "364299"
  },
- "webApps": [
+ "githubUser": "Nalathan01",
+ "githubIgnore": [
+  "nalathan-news-bot"
+ ],
+ "itchUser": "nalathan",
+ "itchChannels": [
+  "windows",
+  "android",
+  "linux",
+  "osx"
+ ],
+ "modioUserId": 64323237,
+ "modioGames": [
   {
-   "key": "web:rf4-spots",
-   "name": "RF4 Spots",
-   "channel": "rf4",
-   "versionUrl": "https://itch.io/api/1/x/wharf/latest?target=nalathan/rf4-spots&channel_name=android",
-   "pattern": "\"latest\"\\s*:\\s*\"([^\"]+)\"",
-   "url": "https://nalathan.itch.io/rf4-spots",
-   "notes": "Die Handy-App für Spots und Köder, als Android-App oder direkt im Browser.",
-   "links": [
-    [
-     "Im Browser öffnen",
-     "https://www.nalathan.de/rf4-spots/"
-    ]
-   ]
+   "id": 10640,
+   "channel": "tf3"
   }
+ ],
+ "groups": [
+  [
+   "modhub:366174",
+   "fbm:78050",
+   "github:Nalathan01/FS_Dynamic_Market"
+  ],
+  [
+   "modhub:363383",
+   "fbm:77329",
+   "github:Nalathan01/FS25_TexturePipette"
+  ],
+  [
+   "modhub:373590",
+   "fbm:80223",
+   "github:Nalathan01/FS25_SettingsSearch"
+  ],
+  [
+   "modhub:372625",
+   "fbm:79825",
+   "github:Nalathan01/FS25_FieldFinder"
+  ],
+  [
+   "fbm:82174",
+   "github:Nalathan01/FS25_LeaseAssist"
+  ],
+  [
+   "modhub:371897",
+   "fbm:79624",
+   "github:Nalathan01/FS25_HelpersOnCredit"
+  ],
+  [
+   "modhub:371610",
+   "fbm:79509",
+   "github:Nalathan01/FS25_HerbicideWeedCleanup"
+  ],
+  [
+   "modhub:370068",
+   "fbm:78989",
+   "github:Nalathan01/FS25_VisibleFarmlandBuildings"
+  ],
+  [
+   "modhub:370597",
+   "fbm:78007",
+   "github:Nalathan01/FS25_AutomaticHallLights"
+  ],
+  [
+   "modhub:364299",
+   "fbm:77314",
+   "github:Nalathan01/FS25_ServerPlayerCount"
+  ],
+  [
+   "modhub:364141",
+   "fbm:77294",
+   "github:Nalathan01/FS25_ForageSiloExtension"
+  ],
+  [
+   "fbm:77295",
+   "github:Nalathan01/FS25_TimeStopOnLoad"
+  ],
+  [
+   "github:Nalathan01/TF3_RealTime",
+   "modio:6480548",
+   "itch:tf3-real-time"
+  ],
+  [
+   "github:Nalathan01/TF3_ReplaceWarehouses",
+   "modio:6495211",
+   "itch:tf3-replace-warehouses"
+  ],
+  [
+   "github:Nalathan01/rf4-companion",
+   "itch:rf4-companion"
+  ],
+  [
+   "itch:rf4-spots"
+  ],
+  [
+   "github:Nalathan01/FS25-Server-Sync",
+   "itch:fs25-server-sync"
+  ],
+  [
+   "github:Nalathan01/FS25-Mod-Inventory",
+   "itch:mod-inventur"
+  ]
  ]
 }

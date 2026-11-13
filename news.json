@@ -1,10 +1,10 @@
 [
  {
   "date": "2026-11-13T07:00:00Z",
-  "key": "web:rf4-spots",
+  "key": "itch:rf4-spots",
   "name": "RF4 Spots",
   "version": "1.0",
-  "source": "web",
+  "source": "itch",
   "game": "rf4",
   "new": true,
   "url": "https://nalathan.itch.io/rf4-spots",
@@ -374,6 +374,17 @@
   "image": null
  },
  {
+  "date": "2026-11-01T17:09:21Z",
+  "key": "github:Nalathan01/FS25_TimeStopOnLoad",
+  "name": "Time Stop On Load",
+  "version": "1.0.1.0",
+  "source": "github",
+  "game": "ls25",
+  "new": false,
+  "url": "https://github.com/Nalathan01/FS25_TimeStopOnLoad/releases/tag/v1.0.1.0",
+  "image": null
+ },
+ {
   "date": "2026-11-01T17:02:49Z",
   "key": "fbm:77295",
   "name": "Zeitstopp Beim Laden",
@@ -383,6 +394,17 @@
   "new": false,
   "url": "https://forbidden-mods.de/filebase/file/77295-zeitstopp-beim-laden/",
   "image": "https://forbidden-mods.de/_data/public/thumbnail/61/9b/563532-619b53dbb41336ee51454f3ad5d025c61a041f306c415575cc2d8cfb62185556.webp"
+ },
+ {
+  "date": "2026-11-01T15:40:45Z",
+  "key": "github:Nalathan01/FS25_TexturePipette",
+  "name": "Texture Pipette",
+  "version": "2.2.0.1",
+  "source": "github",
+  "game": "ls25",
+  "new": false,
+  "url": "https://github.com/Nalathan01/FS25_TexturePipette/releases/tag/v2.2.0.1",
+  "image": null
  },
  {
   "date": "2026-11-01T14:46:49Z",
@@ -462,6 +484,17 @@
   "image": null
  },
  {
+  "date": "2026-10-28T19:36:01Z",
+  "key": "github:Nalathan01/FS25_ServerPlayerCount",
+  "name": "Server Player Count",
+  "version": "1.1.1.0",
+  "source": "github",
+  "game": "ls25",
+  "new": false,
+  "url": "https://github.com/Nalathan01/FS25_ServerPlayerCount/releases/tag/v1.1.1.0",
+  "image": null
+ },
+ {
   "date": "2026-10-28T18:59:46Z",
   "key": "fbm:77314",
   "name": "Spieleranzahl auf Servern",
@@ -482,6 +515,17 @@
   "new": false,
   "url": "https://forbidden-mods.de/filebase/file/78050-dynamic-market/",
   "image": "https://forbidden-mods.de/file-download/337827/"
+ },
+ {
+  "date": "2026-10-27T20:45:21Z",
+  "key": "github:Nalathan01/FS_Dynamic_Market",
+  "name": "Dynamic Market",
+  "version": "1.3.3.0",
+  "source": "github",
+  "game": "ls25",
+  "new": false,
+  "url": "https://github.com/Nalathan01/FS_Dynamic_Market/releases/tag/v1.3.3.0",
+  "image": null
  },
  {
   "date": "2026-10-27T20:08:50Z",
@@ -616,6 +660,17 @@
   "image": null
  },
  {
+  "date": "2026-10-20T19:39:03Z",
+  "key": "github:Nalathan01/FS25_LeaseAssist",
+  "name": "Lease Assist",
+  "version": "1.0.0.0",
+  "source": "github",
+  "game": "ls25",
+  "new": false,
+  "url": "https://github.com/Nalathan01/FS25_LeaseAssist/releases/tag/v1.0.0.0",
+  "image": null
+ },
+ {
   "date": "2026-10-20T19:30:50Z",
   "key": "fbm:80223",
   "name": "Settings Search",
@@ -625,6 +680,17 @@
   "new": false,
   "url": "https://forbidden-mods.de/filebase/file/80223-settings-search/",
   "image": "https://forbidden-mods.de/file-download/354714/"
+ },
+ {
+  "date": "2026-10-20T19:27:49Z",
+  "key": "github:Nalathan01/FS25_SettingsSearch",
+  "name": "Settings Search",
+  "version": "1.1.0.0",
+  "source": "github",
+  "game": "ls25",
+  "new": false,
+  "url": "https://github.com/Nalathan01/FS25_SettingsSearch/releases/tag/v1.1.0.0",
+  "image": null
  },
  {
   "date": "2026-10-20T09:16:03Z",
@@ -647,6 +713,28 @@
   "new": false,
   "url": "https://forbidden-mods.de/filebase/file/78007-automatische-hallenbeleuchtung/",
   "image": "https://forbidden-mods.de/_data/public/thumbnail/7b/00/570150-7b0010ece34548e7672330b858d1a5693c1d8b36597079fae99dcb30df837035.webp"
+ },
+ {
+  "date": "2026-10-20T08:16:19Z",
+  "key": "github:Nalathan01/FS25_AutomaticHallLights",
+  "name": "Automatic Hall Lights",
+  "version": "1.0.2.0",
+  "source": "github",
+  "game": "ls25",
+  "new": false,
+  "url": "https://github.com/Nalathan01/FS25_AutomaticHallLights/releases/tag/v1.0.2.0",
+  "image": null
+ },
+ {
+  "date": "2026-10-20T07:52:32Z",
+  "key": "github:Nalathan01/FS25_HerbicideWeedCleanup",
+  "name": "Herbicide Weed Cleanup",
+  "version": "1.0.1.0",
+  "source": "github",
+  "game": "ls25",
+  "new": false,
+  "url": "https://github.com/Nalathan01/FS25_HerbicideWeedCleanup/releases/tag/v1.0.1.0",
+  "image": null
  },
  {
   "date": "2026-10-20T07:51:49Z",
@@ -803,6 +891,17 @@
   "image": "https://forbidden-mods.de/file-download/333867/"
  },
  {
+  "date": "2026-09-04T15:31:26Z",
+  "key": "github:Nalathan01/FS25_HelpersOnCredit",
+  "name": "Helpers On Credit",
+  "version": "1.0.3.0",
+  "source": "github",
+  "game": "ls25",
+  "new": false,
+  "url": "https://github.com/Nalathan01/FS25_HelpersOnCredit/releases/tag/v1.0.3.0",
+  "image": null
+ },
+ {
   "date": "2026-08-29T13:30:04Z",
   "key": "fbm:78050",
   "name": "Dynamic Market",
@@ -845,6 +944,17 @@
   "new": false,
   "url": "https://forbidden-mods.de/filebase/file/79825-field-finder/",
   "image": "https://forbidden-mods.de/file-download/352560/"
+ },
+ {
+  "date": "2026-08-18T10:34:17Z",
+  "key": "github:Nalathan01/FS25_FieldFinder",
+  "name": "Field Finder",
+  "version": "1.0.0.0",
+  "source": "github",
+  "game": "ls25",
+  "new": false,
+  "url": "https://github.com/Nalathan01/FS25_FieldFinder/releases/tag/v1.0.0.0",
+  "image": null
  },
  {
   "date": "2026-08-18T00:52:26Z",
@@ -900,6 +1010,17 @@
   "new": false,
   "url": "https://forbidden-mods.de/filebase/file/78989-versteckte-st%C3%A4lle-h%C3%B6fe-sichtbar-machen/",
   "image": "https://forbidden-mods.de/_data/public/thumbnail/9d/28/579493-9d28e66207a52eb5ad69ec1919e490bd63a5d604d5a3842008e1eed299b87c8a.webp"
+ },
+ {
+  "date": "2026-08-09T14:54:51Z",
+  "key": "github:Nalathan01/FS25_VisibleFarmlandBuildings",
+  "name": "Visible Farmland Buildings",
+  "version": "1.0.0.9",
+  "source": "github",
+  "game": "ls25",
+  "new": false,
+  "url": "https://github.com/Nalathan01/FS25_VisibleFarmlandBuildings/releases/tag/v1.0.0.9",
+  "image": null
  },
  {
   "date": "2026-08-09T11:23:24Z",
@@ -1010,6 +1131,17 @@
   "new": true,
   "url": "https://forbidden-mods.de/filebase/file/78007-automatische-hallenbeleuchtung/",
   "image": "https://forbidden-mods.de/_data/public/thumbnail/7b/00/570150-7b0010ece34548e7672330b858d1a5693c1d8b36597079fae99dcb30df837035.webp"
+ },
+ {
+  "date": "2026-06-18T13:20:39Z",
+  "key": "github:Nalathan01/FS25_ForageSiloExtension",
+  "name": "Forage Silo Extension",
+  "version": "1.0.0.0",
+  "source": "github",
+  "game": "ls25",
+  "new": false,
+  "url": "https://github.com/Nalathan01/FS25_ForageSiloExtension/releases/tag/v1.0.0.0",
+  "image": null
  },
  {
   "date": "2026-05-31T13:43:30Z",

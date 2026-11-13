@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T20:24:58Z",
+ "updated": "2026-11-13T20:31:00Z",
  "items": {
   "fbm:77294": {
    "name": "Futter Silo Erweiterung",
@@ -187,6 +187,114 @@
     ]
    ]
   },
+  "github:Nalathan01/FS25_AutomaticHallLights": {
+   "name": "Automatic Hall Lights",
+   "version": "1.0.2.0",
+   "source": "github",
+   "game": "ls25",
+   "url": "https://github.com/Nalathan01/FS25_AutomaticHallLights/releases/tag/v1.0.2.0",
+   "image": null,
+   "links": []
+  },
+  "github:Nalathan01/FS25_FieldFinder": {
+   "name": "Field Finder",
+   "version": "1.0.0.0",
+   "source": "github",
+   "game": "ls25",
+   "url": "https://github.com/Nalathan01/FS25_FieldFinder/releases/tag/v1.0.0.0",
+   "image": null,
+   "links": []
+  },
+  "github:Nalathan01/FS25_ForageSiloExtension": {
+   "name": "Forage Silo Extension",
+   "version": "1.0.0.0",
+   "source": "github",
+   "game": "ls25",
+   "url": "https://github.com/Nalathan01/FS25_ForageSiloExtension/releases/tag/v1.0.0.0",
+   "image": null,
+   "links": []
+  },
+  "github:Nalathan01/FS25_HelpersOnCredit": {
+   "name": "Helpers On Credit",
+   "version": "1.0.3.0",
+   "source": "github",
+   "game": "ls25",
+   "url": "https://github.com/Nalathan01/FS25_HelpersOnCredit/releases/tag/v1.0.3.0",
+   "image": null,
+   "links": []
+  },
+  "github:Nalathan01/FS25_HerbicideWeedCleanup": {
+   "name": "Herbicide Weed Cleanup",
+   "version": "1.0.1.0",
+   "source": "github",
+   "game": "ls25",
+   "url": "https://github.com/Nalathan01/FS25_HerbicideWeedCleanup/releases/tag/v1.0.1.0",
+   "image": null,
+   "links": []
+  },
+  "github:Nalathan01/FS25_LeaseAssist": {
+   "name": "Lease Assist",
+   "version": "1.0.0.0",
+   "source": "github",
+   "game": "ls25",
+   "url": "https://github.com/Nalathan01/FS25_LeaseAssist/releases/tag/v1.0.0.0",
+   "image": null,
+   "links": []
+  },
+  "github:Nalathan01/FS25_ServerPlayerCount": {
+   "name": "Server Player Count",
+   "version": "1.1.1.0",
+   "source": "github",
+   "game": "ls25",
+   "url": "https://github.com/Nalathan01/FS25_ServerPlayerCount/releases/tag/v1.1.1.0",
+   "image": null,
+   "links": []
+  },
+  "github:Nalathan01/FS25_SettingsSearch": {
+   "name": "Settings Search",
+   "version": "1.1.0.0",
+   "source": "github",
+   "game": "ls25",
+   "url": "https://github.com/Nalathan01/FS25_SettingsSearch/releases/tag/v1.1.0.0",
+   "image": null,
+   "links": []
+  },
+  "github:Nalathan01/FS25_TexturePipette": {
+   "name": "Texture Pipette",
+   "version": "2.2.0.1",
+   "source": "github",
+   "game": "ls25",
+   "url": "https://github.com/Nalathan01/FS25_TexturePipette/releases/tag/v2.2.0.1",
+   "image": null,
+   "links": []
+  },
+  "github:Nalathan01/FS25_TimeStopOnLoad": {
+   "name": "Time Stop On Load",
+   "version": "1.0.1.0",
+   "source": "github",
+   "game": "ls25",
+   "url": "https://github.com/Nalathan01/FS25_TimeStopOnLoad/releases/tag/v1.0.1.0",
+   "image": null,
+   "links": []
+  },
+  "github:Nalathan01/FS25_VisibleFarmlandBuildings": {
+   "name": "Visible Farmland Buildings",
+   "version": "1.0.0.9",
+   "source": "github",
+   "game": "ls25",
+   "url": "https://github.com/Nalathan01/FS25_VisibleFarmlandBuildings/releases/tag/v1.0.0.9",
+   "image": null,
+   "links": []
+  },
+  "github:Nalathan01/FS_Dynamic_Market": {
+   "name": "Dynamic Market",
+   "version": "1.3.3.0",
+   "source": "github",
+   "game": "ls25",
+   "url": "https://github.com/Nalathan01/FS_Dynamic_Market/releases/tag/v1.3.3.0",
+   "image": null,
+   "links": []
+  },
   "github:Nalathan01/TF3_RealTime": {
    "name": "Real Time",
    "version": "1.0.1",
@@ -229,13 +337,76 @@
     ]
    ]
   },
+  "itch:fs25-server-sync": {
+   "name": "FS25 Server Sync",
+   "version": "1.0.2",
+   "source": "itch",
+   "game": "ls25",
+   "url": "https://nalathan.itch.io/fs25-server-sync",
+   "image": "https://img.itch.zone/aW1nLzMxMTc3OTg1LnBuZw==/315x250%23c/4ZcgxQ.png",
+   "links": []
+  },
+  "itch:mod-inventur": {
+   "name": "FS25 Mod Inventory",
+   "version": "",
+   "source": "itch",
+   "game": "ls25",
+   "url": "https://nalathan.itch.io/mod-inventur",
+   "image": "https://img.itch.zone/aW1nLzMxMTc4Nzc5LnBuZw==/315x250%23c/HU4%2FMX.png",
+   "links": []
+  },
+  "itch:rf4-companion": {
+   "name": "RF4 Companion",
+   "version": "2.3.0",
+   "source": "itch",
+   "game": "rf4",
+   "url": "https://nalathan.itch.io/rf4-companion",
+   "image": "https://img.itch.zone/aW1nLzMwMzgxNTcxLnBuZw==/315x250%23c/0Wj%2BDQ.png",
+   "links": []
+  },
+  "itch:rf4-companion-spots": {
+   "name": "RF4 Companion Spots",
+   "version": "",
+   "source": "itch",
+   "game": "rf4",
+   "url": "https://nalathan.itch.io/rf4-companion-spots",
+   "image": "https://img.itch.zone/aW1nLzMxNzcwNzcyLnBuZw==/315x250%23c/vZM%2BEy.png",
+   "links": []
+  },
+  "itch:rf4-spots": {
+   "name": "RF4 Spots",
+   "version": "1.0",
+   "source": "itch",
+   "game": "rf4",
+   "url": "https://nalathan.itch.io/rf4-spots",
+   "image": "https://img.itch.zone/aW1nLzMyMTg1MDMxLnBuZw==/315x250%23c/hG69JX.png",
+   "links": []
+  },
+  "itch:tf3-real-time": {
+   "name": "Real Time (Transport Fever 3)",
+   "version": "",
+   "source": "itch",
+   "game": "tf3",
+   "url": "https://nalathan.itch.io/tf3-real-time",
+   "image": "https://img.itch.zone/aW1nLzMxNjUwMjk4LnBuZw==/315x250%23c/DH2jPb.png",
+   "links": []
+  },
+  "itch:tf3-replace-warehouses": {
+   "name": "Replace Warehouses (Transport Fever 3)",
+   "version": "",
+   "source": "itch",
+   "game": "tf3",
+   "url": "https://nalathan.itch.io/tf3-replace-warehouses",
+   "image": "https://img.itch.zone/aW1nLzMxNjUwNDY0LnBuZw==/315x250%23c/VH7cST.png",
+   "links": []
+  },
   "modhub:363383": {
    "name": "Terrain Texture And Object Picker",
    "version": "2.2.1.0",
    "source": "modhub",
    "game": "ls25",
    "url": "https://www.farming-simulator.com/mod.php?lang=de&country=de&mod_id=363383&title=fs2025",
-   "image": "https://cdn32.giants-software.com/modHub/storage/00363383/screenshot0.jpg",
+   "image": "https://cdn40.giants-software.com/modHub/storage/00363383/screenshot0.jpg",
    "links": [
     [
      "Forbidden Mods",
@@ -291,7 +462,7 @@
    "source": "modhub",
    "game": "ls25",
    "url": "https://www.farming-simulator.com/mod.php?lang=de&country=de&mod_id=370068&title=fs2025",
-   "image": "https://cdn32.giants-software.com/modHub/storage/00370068/screenshot0.jpg",
+   "image": "https://cdn40.giants-software.com/modHub/storage/00370068/screenshot0.jpg",
    "links": [
     [
      "Forbidden Mods",
@@ -333,7 +504,7 @@
    "source": "modhub",
    "game": "ls25",
    "url": "https://www.farming-simulator.com/mod.php?lang=de&country=de&mod_id=371897&title=fs2025",
-   "image": "https://cdn40.giants-software.com/modHub/storage/00371897/screenshot0.jpg",
+   "image": "https://cdn32.giants-software.com/modHub/storage/00371897/screenshot0.jpg",
    "links": [
     [
      "Forbidden Mods",
@@ -361,7 +532,7 @@
    "source": "modhub",
    "game": "ls25",
    "url": "https://www.farming-simulator.com/mod.php?lang=de&country=de&mod_id=373590&title=fs2025",
-   "image": "https://cdn40.giants-software.com/modHub/storage/00373590/screenshot0.jpg",
+   "image": "https://cdn32.giants-software.com/modHub/storage/00373590/screenshot0.jpg",
    "links": [
     [
      "Forbidden Mods",
@@ -369,19 +540,23 @@
     ]
    ]
   },
-  "web:rf4-spots": {
-   "name": "RF4 Spots",
+  "modio:6480548": {
+   "name": "Real Time",
    "version": "1.0",
-   "source": "web",
-   "game": "rf4",
-   "url": "https://nalathan.itch.io/rf4-spots",
-   "image": null,
-   "links": [
-    [
-     "Im Browser öffnen",
-     "https://www.nalathan.de/rf4-spots/"
-    ]
-   ]
+   "source": "modio",
+   "game": "tf3",
+   "url": "https://mod.io/g/transportfever3/m/real-time1",
+   "image": "https://thumb.modcdn.io/mods/4656/6480548/crop_320x180/itch_realtime_0.png",
+   "links": []
+  },
+  "modio:6495211": {
+   "name": "Replace Warehouses",
+   "version": "1.0",
+   "source": "modio",
+   "game": "tf3",
+   "url": "https://mod.io/g/transportfever3/m/replace-warehouses",
+   "image": "https://thumb.modcdn.io/mods/cfc2/6495211/crop_320x180/itch_replacewarehouses_0.png",
+   "links": []
   }
  }
 }
