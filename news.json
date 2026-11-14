@@ -1,5 +1,16 @@
 [
  {
+  "date": "2026-11-14T11:36:41Z",
+  "key": "github:Nalathan01/rf4-companion",
+  "name": "RF4 Companion",
+  "version": "2.3.3",
+  "source": "github",
+  "game": "rf4",
+  "new": false,
+  "url": "https://github.com/Nalathan01/rf4-companion/releases/tag/v2.3.3",
+  "image": null
+ },
+ {
   "date": "2026-11-14T09:53:05Z",
   "key": "github:Nalathan01/rf4-companion",
   "name": "RF4 Companion",
