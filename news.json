@@ -1,5 +1,16 @@
 [
  {
+  "date": "2026-11-15T15:12:55Z",
+  "key": "github:Nalathan01/FS25_ProductionAutoPause",
+  "name": "Production Auto Pause",
+  "version": "0.9.0.0",
+  "source": "github",
+  "game": "ls25",
+  "new": true,
+  "url": "https://github.com/Nalathan01/FS25_ProductionAutoPause/releases/tag/v0.9.0.0",
+  "image": null
+ },
+ {
   "date": "2026-11-15T11:45:40Z",
   "key": "github:Nalathan01/rf4-companion",
   "name": "RF4 Companion",
