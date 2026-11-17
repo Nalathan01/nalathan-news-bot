@@ -1,5 +1,16 @@
 [
  {
+  "date": "2026-11-17T15:46:31Z",
+  "key": "fbm:83493",
+  "name": "Produktion Auto Pause",
+  "version": "0.9.1.0",
+  "source": "fbm",
+  "game": "ls25",
+  "new": false,
+  "url": "https://forbidden-mods.de/filebase/file/83493-produktion-auto-pause/",
+  "image": "https://forbidden-mods.de/_data/public/thumbnail/d4/35/621952-d43581b072bbb0524c71e089c7110685b43241fa366249ceb06a03a46a5aca71.webp"
+ },
+ {
   "date": "2026-11-17T15:20:19Z",
   "key": "github:Nalathan01/FS25_ProductionAutoPause",
   "name": "Production Auto Pause",
