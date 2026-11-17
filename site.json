@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T14:54:20Z",
+ "updated": "2026-11-17T15:20:19Z",
  "items": {
   "fbm:77294": {
    "name": "Futter Silo Erweiterung",
@@ -252,10 +252,10 @@
   },
   "github:Nalathan01/FS25_ProductionAutoPause": {
    "name": "Production Auto Pause",
-   "version": "0.9.0.0",
+   "version": "0.9.1.0",
    "source": "github",
    "game": "ls25",
-   "url": "https://github.com/Nalathan01/FS25_ProductionAutoPause/releases/tag/v0.9.0.0",
+   "url": "https://github.com/Nalathan01/FS25_ProductionAutoPause/releases/tag/v0.9.1.0",
    "image": null,
    "links": []
   },
@@ -424,7 +424,7 @@
    "source": "modhub",
    "game": "ls25",
    "url": "https://www.farming-simulator.com/mod.php?lang=de&country=de&mod_id=363383&title=fs2025",
-   "image": "https://cdn40.giants-software.com/modHub/storage/00363383/screenshot0.jpg",
+   "image": "https://cdn32.giants-software.com/modHub/storage/00363383/screenshot0.jpg",
    "links": [
     [
      "Forbidden Mods",
@@ -438,7 +438,7 @@
    "source": "modhub",
    "game": "ls25",
    "url": "https://www.farming-simulator.com/mod.php?lang=de&country=de&mod_id=364141&title=fs2025",
-   "image": "https://cdn40.giants-software.com/modHub/storage/00364141/screenshot0.jpg",
+   "image": "https://cdn32.giants-software.com/modHub/storage/00364141/screenshot0.jpg",
    "links": [
     [
      "Forbidden Mods",
@@ -466,7 +466,7 @@
    "source": "modhub",
    "game": "ls25",
    "url": "https://www.farming-simulator.com/mod.php?lang=de&country=de&mod_id=366174&title=fs2025",
-   "image": "https://cdn32.giants-software.com/modHub/storage/00366174/screenshot0.jpg",
+   "image": "https://cdn40.giants-software.com/modHub/storage/00366174/screenshot0.jpg",
    "links": [
     [
      "Forbidden Mods",
@@ -536,7 +536,7 @@
    "source": "modhub",
    "game": "ls25",
    "url": "https://www.farming-simulator.com/mod.php?lang=de&country=de&mod_id=372625&title=fs2025",
-   "image": "https://cdn40.giants-software.com/modHub/storage/00372625/screenshot0.jpg",
+   "image": "https://cdn32.giants-software.com/modHub/storage/00372625/screenshot0.jpg",
    "links": [
     [
      "Forbidden Mods",

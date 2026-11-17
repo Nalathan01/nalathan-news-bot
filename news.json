@@ -1,5 +1,16 @@
 [
  {
+  "date": "2026-11-17T15:20:19Z",
+  "key": "github:Nalathan01/FS25_ProductionAutoPause",
+  "name": "Production Auto Pause",
+  "version": "0.9.1.0",
+  "source": "github",
+  "game": "ls25",
+  "new": false,
+  "url": "https://github.com/Nalathan01/FS25_ProductionAutoPause/releases/tag/v0.9.1.0",
+  "image": null
+ },
+ {
   "date": "2026-11-15T16:04:48Z",
   "key": "fbm:83493",
   "name": "Produktion Auto Pause",
