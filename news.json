@@ -1,5 +1,16 @@
 [
  {
+  "date": "2026-11-19T20:59:31Z",
+  "key": "itch:fs25-server-sync",
+  "name": "FS25 Server Sync",
+  "version": "",
+  "source": "itch",
+  "game": "ls25",
+  "new": false,
+  "url": "https://nalathan.itch.io/fs25-server-sync",
+  "image": "https://img.itch.zone/aW1nLzMxMTc3OTg1LnBuZw==/315x250%23c/4ZcgxQ.png"
+ },
+ {
   "date": "2026-11-17T15:46:31Z",
   "key": "fbm:83493",
   "name": "Produktion Auto Pause",
