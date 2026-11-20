@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T16:52:54Z",
+ "updated": "2026-11-20T17:18:54Z",
  "items": {
   "fbm:77294": {
    "name": "Futter Silo Erweiterung",
@@ -357,7 +357,7 @@
   },
   "itch:fs25-server-sync": {
    "name": "FS25 Server Sync",
-   "version": "",
+   "version": "1.0.2",
    "source": "itch",
    "game": "ls25",
    "url": "https://nalathan.itch.io/fs25-server-sync",
