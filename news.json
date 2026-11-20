@@ -1,5 +1,16 @@
 [
  {
+  "date": "2026-11-20T20:20:22Z",
+  "key": "itch:rf4-companion",
+  "name": "RF4 Companion",
+  "version": "2.3.0",
+  "source": "itch",
+  "game": "rf4",
+  "new": false,
+  "url": "https://nalathan.itch.io/rf4-companion",
+  "image": "https://img.itch.zone/aW1nLzMwMzgxNTcxLnBuZw==/315x250%23c/0Wj%2BDQ.png"
+ },
+ {
   "date": "2026-11-20T19:54:15Z",
   "key": "itch:fs25-server-sync",
   "name": "FS25 Server Sync",
