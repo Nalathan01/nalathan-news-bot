@@ -1,5 +1,16 @@
 [
  {
+  "date": "2026-11-20T03:01:50Z",
+  "key": "itch:rf4-spots",
+  "name": "RF4 Spots",
+  "version": "",
+  "source": "itch",
+  "game": "rf4",
+  "new": false,
+  "url": "https://nalathan.itch.io/rf4-spots",
+  "image": "https://img.itch.zone/aW1nLzMyMTg1MDMxLnBuZw==/315x250%23c/hG69JX.png"
+ },
+ {
   "date": "2026-11-20T02:35:44Z",
   "key": "itch:fs25-server-sync",
   "name": "FS25 Server Sync",
