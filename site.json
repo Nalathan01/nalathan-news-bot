@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T20:20:22Z",
+ "updated": "2026-11-20T20:46:30Z",
  "items": {
   "fbm:77294": {
    "name": "Futter Silo Erweiterung",
@@ -393,7 +393,7 @@
   },
   "itch:rf4-spots": {
    "name": "RF4 Spots",
-   "version": "",
+   "version": "1.0",
    "source": "itch",
    "game": "rf4",
    "url": "https://nalathan.itch.io/rf4-spots",
