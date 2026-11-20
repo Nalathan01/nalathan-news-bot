@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T22:56:18Z",
+ "updated": "2026-11-20T23:22:27Z",
  "items": {
   "fbm:77294": {
    "name": "Futter Silo Erweiterung",
@@ -375,7 +375,7 @@
   },
   "itch:rf4-companion": {
    "name": "RF4 Companion",
-   "version": "2.3.0",
+   "version": "",
    "source": "itch",
    "game": "rf4",
    "url": "https://nalathan.itch.io/rf4-companion",
