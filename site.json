@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T19:28:31Z",
+ "updated": "2026-11-20T19:54:15Z",
  "items": {
   "fbm:77294": {
    "name": "Futter Silo Erweiterung",
@@ -357,7 +357,7 @@
   },
   "itch:fs25-server-sync": {
    "name": "FS25 Server Sync",
-   "version": "1.0.2",
+   "version": "",
    "source": "itch",
    "game": "ls25",
    "url": "https://nalathan.itch.io/fs25-server-sync",
@@ -375,7 +375,7 @@
   },
   "itch:rf4-companion": {
    "name": "RF4 Companion",
-   "version": "2.3.0",
+   "version": "",
    "source": "itch",
    "game": "rf4",
    "url": "https://nalathan.itch.io/rf4-companion",
@@ -393,7 +393,7 @@
   },
   "itch:rf4-spots": {
    "name": "RF4 Spots",
-   "version": "1.0",
+   "version": "",
    "source": "itch",
    "game": "rf4",
    "url": "https://nalathan.itch.io/rf4-spots",
