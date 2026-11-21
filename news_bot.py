@@ -152,14 +152,17 @@ def itch_entries():
             data = json.loads(fetch(f"https://{user}.itch.io/{slug}/data.json"))
         except urllib.error.HTTPError:
             continue
-        versions = []
+        versions, broken = [], False
         for channel in CONFIG.get("itchChannels", ["windows", "android"]):
             try:
                 v = json.loads(fetch(f"https://itch.io/api/1/x/wharf/latest?target={user}/{slug}&channel_name={channel}")).get("latest")
-            except urllib.error.HTTPError:
+            except urllib.error.HTTPError as e:
+                broken = broken or e.code != 404
                 v = None
             if v:
                 versions.append(v)
+        if broken or not versions:
+            continue
         yield {
             "key": f"itch:{slug}", "version": versions[0] if versions else "", "source": "itch",
             "name": html.unescape(data.get("title") or slug), "url": f"https://{user}.itch.io/{slug}",
